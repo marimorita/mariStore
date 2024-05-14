@@ -11,18 +11,18 @@ export const Header = () => {
       </div>
 
       <div className='w-full h-[50px]  bg-[#FFEFEF] flex items-center justify-center'>
-       <div className='w-[60%] flex justify-between items-center'>
-        <div className='flex justify-center'>
-          <p className='text-[#402B3A] font-medium text-2xl '>Categorias</p>
+       <div className='w-[60%] flex justify-between items-center '>
+        <div className='flex justify-center  hover:bg-[#F3D0D7] hover:pr-[10px] hover:pl-[10px] hover:rounded-[10px]'>
+          <p className='text-[#402B3A] font-medium text-2xl'>Categorias</p>
           <MdKeyboardArrowDown className='text-[#402B3A] w-10 h-10' />
         </div>
 
-        <p className='text-[#402B3A] font-medium text-2xl hover:bg-black hover:pr-[10px] hover:pl-[10px] hover:rounded-[10px]'>Inicio</p>
+        <p className='text-[#402B3A] font-medium text-2xl hover:bg-[#F3D0D7] hover:pr-[10px] hover:pl-[10px] hover:rounded-[10px]'>Inicio</p>
          <div className='flex items-center'>   
            <input type="text" placeholder=" search " className='text-[#402B3A] w-15 h-7 indent-2 bg-[#FFEFEF] border-2 border-[#F3D0D7]  '/>
            <FaSearch className='text-[#402B3A] w-9 h-6'/> 
          </div>
-         <CgShoppingCart className='text-[#402B3A] w-10 h-10'/>
+         <CgShoppingCart className='text-[#402B3A] w-10 h-10 hover:bg-[#F3D0D7] hover:pr-[3px] hover:pl-[3px] hover:rounded-[10px]'/>
         </div>
       </div>
     </header>
