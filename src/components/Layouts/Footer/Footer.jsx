@@ -1,12 +1,9 @@
 import React from "react";
 
-export const Footer = ({ children }) => {
+export const Footer = () => {
     return (
-        <footer>
-            <div className="max-h bg-white">
-                <div className="text-center text-lg color text-gray-100"> el footer de mari QUE</div>
-            </div>
-        { children }
+        <footer className="w-full ">
+            <div className="text-center text-lg color text-gray-100"> el footer de mari QUE</div>
         </footer>
     )
 }

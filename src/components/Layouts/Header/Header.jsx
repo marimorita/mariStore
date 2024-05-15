@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
 import { CgShoppingCart } from "react-icons/cg";
 
 export const Header = () => {
+
   return (
-    <header className='bg-[#F3D0D7] w-full h-[150px]'>
+    <header className='fixed bg-[#F3D0D7] w-full h-[150px]'>
       <div className='w-full h-[100px] flex flex-col justify-center items-center'> 
         <p className='text-[#402B3A] text-5xl font-semibold'>M O R I T A</p>
       </div>
